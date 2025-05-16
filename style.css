@@ -45,3 +45,12 @@ body {
 .content-logos-phone {
     max-width: 10rem;
 }
+.bg-azul {
+    background-color: #232845;
+}
+.content-text-pages {
+    max-width: 23.5rem;
+}
+.text-red {
+    color: #DD0610;
+}
