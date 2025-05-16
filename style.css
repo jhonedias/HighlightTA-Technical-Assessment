@@ -39,3 +39,9 @@ body {
 .register-check-input {
     border-color: #8A8B8D;
 }
+.bg-gray {
+    background-color: #E4E6E8;
+}
+.content-logos-phone {
+    max-width: 10rem;
+}
