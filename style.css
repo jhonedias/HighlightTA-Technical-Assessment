@@ -1,1 +1,13 @@
-
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.background-dark {
+    background-color:#111111;
+}
+.nav-link {
+    color: #fff;
+    font-size: .8rem;
+}
+.nav-link:hover {
+    color: #c0c0c0;
+}
