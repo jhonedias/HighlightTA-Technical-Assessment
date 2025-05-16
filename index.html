@@ -48,7 +48,6 @@
             </div>
         </div>
     </nav>
-
     <section class="banner-header bg-cover-center">
         <div class="container">
             <div class="row">
@@ -69,10 +68,9 @@
             </div>
         </div>
     </section>
-
     <section class="register bg-white overflow-hidden pt-5 pb-5">
         <div class="container">
-            <form action="">
+            <form action="#" id="registerForm">
                 <div class="row g-3">
                     <div class="col-12 col-sm-6 col-lg-3">
                         <input type="text" value="" placeholder="First Name" class="w-100 input-field"/>
@@ -81,7 +79,8 @@
                         <input type="text" value="" placeholder="Last Name" class="w-100 input-field"/>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <input type="email" value="" placeholder="Email" class="w-100 input-field"/>
+                        <input type="text" value="" placeholder="Email" id="registerEmail" class="w-100 input-field"/>
+                        <small id="emailError" class="text-danger d-none">Use a valid email.</small>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="d-flex gap-1">
@@ -122,7 +121,6 @@
             </form>
         </div>
     </section>
-
     <section class="bg-gray py-5">
         <div class="container">
             <div class="row">
@@ -190,6 +188,7 @@
             </div>
         </div>
     </section>
+    
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
