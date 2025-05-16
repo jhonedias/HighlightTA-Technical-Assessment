@@ -54,3 +54,9 @@ body {
 .text-red {
     color: #DD0610;
 }
+.text-footer {
+    color: #A4A8AA;
+}
+.footer-social {
+    background-color: #222222;
+}
