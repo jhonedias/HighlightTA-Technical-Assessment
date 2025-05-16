@@ -55,8 +55,11 @@ body {
     color: #DD0610;
 }
 .text-footer {
-    color: #A4A8AA;
+    color: #A4A4AA;
 }
 .footer-social {
     background-color: #222222;
+}
+.footer-content {
+    background-color: #161616;
 }
