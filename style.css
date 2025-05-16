@@ -22,3 +22,20 @@ body {
     padding-top: 7rem;
     padding-bottom: 0;
 }
+.input-field, .button-register {
+    height: 2.5rem;
+}
+.input-field {
+    border: 1px solid #8A8B8D;
+    padding-left: 1rem;
+}
+.button-register {
+    background-color: #CF0B0F;
+    color: #fff;
+}
+.label-privacy {
+    font-size: .7rem;
+}
+.register-check-input {
+    border-color: #8A8B8D;
+}
