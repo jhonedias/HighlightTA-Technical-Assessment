@@ -86,3 +86,7 @@ body {
         position: relative !important;
     }
 }
+
+@media (max-width: 575.98px) {
+    .img-phone, .img-pages {max-width: 100%; height: auto;}
+}
