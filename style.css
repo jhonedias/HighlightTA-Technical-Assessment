@@ -63,3 +63,26 @@ body {
 .footer-content {
     background-color: #161616;
 }
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 1199.98px) {
+    .img-banner-header {
+        bottom: 0;
+    }
+    .input-field {
+        padding-left: .6rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .img-banner-header {
+        position: relative !important;
+    }
+}
